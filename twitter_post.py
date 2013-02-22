@@ -19,5 +19,5 @@ count = 0
 while post_status() == False:
     post_status()
     count += 1
-    if count > 10:
+    if count > 100:
         break
